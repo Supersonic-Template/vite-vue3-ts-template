@@ -1,0 +1,29 @@
+// 注册多主题
+@import "./theme/register.scss";
+// reset
+@import "./reset.scss";
+// noprogress
+@import "./noprogress.scss";
+// scrollbar
+@import "./scrollbar.scss";
+// viewTransition
+@import "./viewTransition.scss";
+
+:root {
+  --c-bg: #fff;
+  --c-scrollbar: #eee;
+  --c-scrollbar-hover: #bbb;
+  --c-noprogress-color: #d0d0d0;
+}
+
+html {
+  background-color: var(--c-bg);
+  overflow-y: auto;
+}
+
+html.dark {
+  --c-bg: #151515;
+  --c-scrollbar: #535353;
+  --c-scrollbar-hover: #aeaeae;
+  --c-noprogress-color: #d0d0d0;
+}
