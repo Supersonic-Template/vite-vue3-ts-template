@@ -9,7 +9,7 @@ pnpm build
 ```
 
 # 目录结构
-
+```
 ├── public
 ├── src
 │   ├── App.vue
@@ -26,4 +26,4 @@ pnpm build
 │   ├── types
 │   ├── utils
 │   ├── views
-
+```
